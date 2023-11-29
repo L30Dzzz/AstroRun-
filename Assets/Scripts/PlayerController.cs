@@ -7,7 +7,10 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float speed = 10.0f;
     public float jump;
+    public float doubleJumpForce;
     private Rigidbody2D rb;
+    public bool isOnGround = true;
+    private bool doubleJump = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +24,25 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
     //prevent player from jumping multiple times in air
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
+            isOnGround = false;
+            doubleJump = true;
             rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Space) && !isOnGround && doubleJump)
+        {
+            Debug.Log("here");
+            rb.AddForce(new Vector2(rb.velocity.x, doubleJumpForce));
+            doubleJump = false;
         }
         
     }
 
-    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        isOnGround = true;
+        doubleJump = false;
+    }
 }
