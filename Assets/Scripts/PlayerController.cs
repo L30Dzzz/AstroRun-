@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
-    //prevent player from jumping multiple times in air
+    // Double jump
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
             isOnGround = false;
@@ -31,9 +31,8 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jump));
         }
 
-        else if(Input.GetKeyDown(KeyCode.Space) && !isOnGround && doubleJump)
+        else if (Input.GetKeyDown(KeyCode.Space) && !isOnGround && doubleJump)
         {
-            Debug.Log("here");
             rb.AddForce(new Vector2(rb.velocity.x, doubleJumpForce));
             doubleJump = false;
         }
