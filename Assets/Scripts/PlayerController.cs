@@ -12,14 +12,27 @@ public class PlayerController : MonoBehaviour
     public bool isOnGround = true;
     private bool doubleJump = false;
 
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 2f;
+
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    private float wallJumpingTime = 0.2f;
+    private float wallJumpingCounter;
+    private float wallJumpingDuration = 0.4f;
+    private Vector2 wallJumpingPower = new Vector2(8f, 16f);
+
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
+    //fix dash cooldown
+    private float dashingCooldown = 10f;
     int direction;
 
     [SerializeField] private TrailRenderer tr;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +43,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
-
         if (isDashing)
         {
             return;
@@ -61,11 +73,21 @@ public class PlayerController : MonoBehaviour
             doubleJump = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        WallSlide();
+        WallJump();
+
+        // just incase the player has different keys binded, or just an entirely new playing style ~ aaron
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) && canDash)
         {
             StartCoroutine(Dash());
         }
         
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        isOnGround = true;
+        doubleJump = false;
     }
 
     void FixedUpdate()
@@ -75,13 +97,68 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        if (!isWallJumping)
+        {
+            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+        }
+
         rb.velocity = new Vector2(speed * horizontalInput, rb.velocity.y);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private bool IsWalled()
     {
-        isOnGround = true;
-        doubleJump = false;
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+    }
+
+    //checks wall sliding
+    private void WallSlide()
+    {
+        if (IsWalled() && !isOnGround && horizontalInput != 0f)
+        {
+            isWallSliding = true;
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+    private void WallJump()
+    {
+        if (isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+
+            CancelInvoke(nameof(StopWallJumping));
+        }
+        else
+        {
+            wallJumpingCounter -= Time.deltaTime;
+        }
+
+        if (Input.GetButtonDown("Jump") && wallJumpingCounter > 0f)
+        {
+            isWallJumping = true;
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+            wallJumpingCounter = 0f;
+
+            if (transform.localScale.x != wallJumpingDirection)
+            {
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
+
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+        }
+    }
+
+    private void StopWallJumping()
+    {
+        isWallJumping = false;
     }
 
     private IEnumerator Dash()
