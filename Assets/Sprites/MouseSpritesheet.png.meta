@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: bd884b73fdf714640843781051eeb83d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7037710600668292895
+    second: MouseSpritesheet_0
+  - first:
+      213: 8177884997359696489
+    second: MouseSpritesheet_1
+  - first:
+      213: -6825647752002394488
+    second: MouseSpritesheet_2
+  - first:
+      213: 8071348793482102846
+    second: MouseSpritesheet_3
+  - first:
+      213: -5037368671131140971
+    second: MouseSpritesheet_4
+  - first:
+      213: -7794777892812427000
+    second: MouseSpritesheet_5
+  - first:
+      213: 5900762030551798735
+    second: MouseSpritesheet_6
+  - first:
+      213: 594016092168057258
+    second: MouseSpritesheet_7
+  - first:
+      213: 6251524544125122624
+    second: MouseSpritesheet_8
+  - first:
+      213: -2169725154478009509
+    second: MouseSpritesheet_9
+  - first:
+      213: 6276974229944995826
+    second: MouseSpritesheet_10
+  - first:
+      213: -5867679768259093539
+    second: MouseSpritesheet_11
+  - first:
+      213: -2707706563101510316
+    second: MouseSpritesheet_12
+  - first:
+      213: -2276730346852542772
+    second: MouseSpritesheet_13
+  - first:
+      213: -5715622638433080531
+    second: MouseSpritesheet_14
+  - first:
+      213: -142539023020258180
+    second: MouseSpritesheet_15
+  - first:
+      213: 1487705383996590591
+    second: MouseSpritesheet_16
+  - first:
+      213: -1948474797739180562
+    second: MouseSpritesheet_17
+  - first:
+      213: 2292499774370073182
+    second: MouseSpritesheet_18
+  - first:
+      213: 3004776796580438525
+    second: MouseSpritesheet_19
+  - first:
+      213: -6454654964370367219
+    second: MouseSpritesheet_20
+  - first:
+      213: 5763152346026437482
+    second: MouseSpritesheet_21
+  - first:
+      213: 1323813736792247826
+    second: MouseSpritesheet_22
+  - first:
+      213: 1648978286313595949
+    second: MouseSpritesheet_23
+  - first:
+      213: 8224767084514946397
+    second: MouseSpritesheet_24
+  - first:
+      213: -1542560997110814456
+    second: MouseSpritesheet_25
+  - first:
+      213: 3420345439602901019
+    second: MouseSpritesheet_26
+  - first:
+      213: 8774972031566629515
+    second: MouseSpritesheet_27
+  - first:
+      213: -4115485756058667439
+    second: MouseSpritesheet_28
+  - first:
+      213: 479061240267693133
+    second: MouseSpritesheet_29
+  - first:
+      213: 947198035109495462
+    second: MouseSpritesheet_30
+  - first:
+      213: 2384308683361890949
+    second: MouseSpritesheet_31
+  - first:
+      213: -8907555496534483745
+    second: MouseSpritesheet_32
+  - first:
+      213: 1359199108377821905
+    second: MouseSpritesheet_33
+  - first:
+      213: -2515669289069082153
+    second: MouseSpritesheet_34
+  - first:
+      213: 7899596654610293607
+    second: MouseSpritesheet_35
+  - first:
+      213: 3581728483970176492
+    second: MouseSpritesheet_36
+  - first:
+      213: -1512147851410646010
+    second: MouseSpritesheet_37
+  - first:
+      213: -5905066813059288557
+    second: MouseSpritesheet_38
+  - first:
+      213: 6072697166316404889
+    second: MouseSpritesheet_39
+  - first:
+      213: 276818861857456471
+    second: MouseSpritesheet_40
+  - first:
+      213: 3165990100752506368
+    second: MouseSpritesheet_41
+  - first:
+      213: 5427825293027541128
+    second: MouseSpritesheet_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 9, y: 395, z: 10, w: 9}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MouseSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 400
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e85a2ffe77055e90800000000000000
+      internalID: -7037710600668292895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 401
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96afe99a31fad7170800000000000000
+      internalID: 8177884997359696489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 400
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88624fb888d6641a0800000000000000
+      internalID: -6825647752002394488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 400
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3847cdb6f0330070800000000000000
+      internalID: 8071348793482102846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cfb8af1eba71ab0800000000000000
+      internalID: -5037368671131140971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 369
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801f8d31ec263d390800000000000000
+      internalID: -7794777892812427000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3172f9dc7b3e150800000000000000
+      internalID: 5900762030551798735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 369
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1fa841d7e5e3800800000000000000
+      internalID: 594016092168057258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b63d6370e1c650800000000000000
+      internalID: 6251524544125122624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 337
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53db1bb77693e1e0800000000000000
+      internalID: -2169725154478009509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff07282eca4c1750800000000000000
+      internalID: 6276974229944995826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 337
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb9b2dc650d19ea0800000000000000
+      internalID: -5867679768259093539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 305
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45537561a3b4c6ad0800000000000000
+      internalID: -2707706563101510316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 305
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6908aefcd6760e0800000000000000
+      internalID: -2276730346852542772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 305
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2be3063e770ea0b0800000000000000
+      internalID: -5715622638433080531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0f368389950ef0800000000000000
+      internalID: -142539023020258180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 273
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98d8f1a2465a410800000000000000
+      internalID: 1487705383996590591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 273
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed74f2be70a5f4e0800000000000000
+      internalID: -1948474797739180562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 273
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5acdfa066890df10800000000000000
+      internalID: 2292499774370073182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df16385939c13b920800000000000000
+      internalID: 3004776796580438525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 233
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d1ef412857c66a0800000000000000
+      internalID: -6454654964370367219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 232
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b6d533684daff40800000000000000
+      internalID: 5763152346026437482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 232
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec84a64912f5210800000000000000
+      internalID: 1323813736792247826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24ed06c30952e610800000000000000
+      internalID: 1648978286313595949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5da6d0361e342270800000000000000
+      internalID: 8224767084514946397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 192
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80966da22f8b79ae0800000000000000
+      internalID: -1542560997110814456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1088a83e02877f20800000000000000
+      internalID: 3420345439602901019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 192
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a44872296f6c970800000000000000
+      internalID: 8774972031566629515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15671f7728bd2e6c0800000000000000
+      internalID: -4115485756058667439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 151
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c50dbe8a7f5a600800000000000000
+      internalID: 479061240267693133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 161
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a246ae289f152d00800000000000000
+      internalID: 947198035109495462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 157
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823aaa6d14c61120800000000000000
+      internalID: 2384308683361890949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcdbfb5871026480800000000000000
+      internalID: -8907555496534483745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d243e14368dcd210800000000000000
+      internalID: 1359199108377821905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 111
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d98da43c1c861dd0800000000000000
+      internalID: -2515669289069082153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 113
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76329e2bd4101ad60800000000000000
+      internalID: 7899596654610293607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5d0f0541bd4b130800000000000000
+      internalID: 3581728483970176492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c5cc47a85c30be0800000000000000
+      internalID: -1512147851410646010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31237a8150dfc0ea0800000000000000
+      internalID: -5905066813059288557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 32
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9908fc2f5ed864450800000000000000
+      internalID: 6072697166316404889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 32
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7514428c94577d300800000000000000
+      internalID: 276818861857456471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e91c5f83bdfeb20800000000000000
+      internalID: 3165990100752506368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MouseSpritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88089cd9852835b40800000000000000
+      internalID: 5427825293027541128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
