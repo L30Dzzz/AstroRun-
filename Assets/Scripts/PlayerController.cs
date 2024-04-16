@@ -34,10 +34,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
 
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,11 +55,11 @@ public class PlayerController : MonoBehaviour
 
         if(horizontalInput > 0)
         {
-            direction = 1;
+            animator.SetFloat("MoveX", horizontalInput);
         }
         else if(horizontalInput < 0)
         {
-            direction = -1;
+            animator.SetFloat("MoveX", horizontalInput);
         }
 
         // Double jump
