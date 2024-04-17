@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
+
             return;
         }
 
@@ -79,7 +80,7 @@ public class PlayerController : MonoBehaviour
         WallSlide();
         WallJump();
 
-        // just incase the player has different keys binded, or just an entirely new playing style ~ aaron
+        // just incase the player has different keys binded, or just an entirely new playing style
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) && canDash)
         {
             StartCoroutine(Dash());
@@ -97,6 +98,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
+            //animator.SetTrigger("Dash");
             return;
         }
 
